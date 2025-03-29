@@ -1,0 +1,10 @@
+[package]
+name = "socket_to_websocket"
+description = "Socket to websocket streamer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.44", features = ["full"] }
+futures-util = "0.3"
+warp = "0.3"
